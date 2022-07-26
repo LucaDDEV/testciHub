@@ -19,6 +19,7 @@ Feature: Simple Tests
     Then I tap out the datePicker
     Then i should see 30
 
+    @search
     Scenario: Change value Picker View
       As a user I can change PickerView values
 
