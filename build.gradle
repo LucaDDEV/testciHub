@@ -18,6 +18,27 @@ dependencies {
 
 }
 
+task runAllTest(type: Test, dependsOn: ['clean', 'build']) {
+    doLast {
+        String tags = getTags()
+        javaexec {
+            main = "cucumber.api.cli.Main"
+            classpath = sourceSets.test.runtimeClasspath
+            args = ["-p", "pretty", "-p",
+                    "json:${reporting.baseDir}/cucumber/cucumber.json",
+                    "--glue", "steps", "-t", tags,
+                    "${project.projectDir}/src/test/java/features"]
+        }
+    }
+}
+
+private String getTags() {
+    def tags = System.getProperty("tags")
+    if (tags != null)
+        return tags;
+    return "~wip"
+}
+
 test {
     useJUnitPlatform()
 }
