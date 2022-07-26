@@ -1,0 +1,485 @@
+2022-07-24 22:25:37:661 [Appium] Welcome to Appium v1.22.3
+2022-07-24 22:25:37:663 [Appium] Non-default server args:
+2022-07-24 22:25:37:663 [Appium]   sessionOverride: true
+2022-07-24 22:25:37:664 [Appium]   logFile: /Users/luca/Desktop/BDDtest Page Object Model/build/appium.log
+2022-07-24 22:25:37:745 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2022-07-24 22:25:37:941 [HTTP] --> GET /wd/hub/status
+2022-07-24 22:25:37:941 [HTTP] {}
+2022-07-24 22:25:37:943 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2022-07-24 22:25:37:944 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
+2022-07-24 22:25:37:954 [HTTP] <-- GET /wd/hub/status 200 8 ms - 68
+2022-07-24 22:25:37:954 [HTTP] 
+2022-07-24 22:25:38:929 [HTTP] Request idempotency key: 10fa047e-7a4b-45fb-8c94-6ed1625e4955
+2022-07-24 22:25:38:963 [HTTP] --> POST /wd/hub/session
+2022-07-24 22:25:38:964 [HTTP] {"desiredCapabilities":{"appium:newCommandTimeout":3600,"noReset":false,"appium:connectHardwareKeyboard":true,"useNewWDA":false,"appium:includeSafariInWebviews":true,"appium:deviceName":"iPhone 13 Pro","platformName":"iOS","appium:app":"/Users/luca/Desktop/BDDtest/src/main/resources/UIKitCatalog-iphonesimulator.app","appium:platformVersion":"15.5","appium:usePrebuiltWDA":true},"capabilities":{"firstMatch":[{"appium:app":"/Users/luca/Desktop/BDDtest/src/main/resources/UIKitCatalog-iphonesimulator.app","appium:connectHardwareKeyboard":true,"appium:deviceName":"iPhone 13 Pro","appium:includeSafariInWebviews":true,"appium:newCommandTimeout":3600,"appium:platformVersion":"15.5","appium:usePrebuiltWDA":true,"appium:noReset":false,"platformName":"ios","appium:useNewWDA":false}]}}
+2022-07-24 22:25:38:964 [W3C] Calling AppiumDriver.createSession() with args: [{"appium:newCommandTimeout":3600,"noReset":false,"appium:connectHardwareKeyboard":true,"useNewWDA":false,"appium:includeSafariInWebviews":true,"appium:deviceName":"iPhone 13 Pro","platformName":"iOS","appium:app":"/Users/luca/Desktop/BDDtest/src/main/resources/UIKitCatalog-iphonesimulator.app","appium:platformVersion":"15.5","appium:usePrebuiltWDA":true},null,{"firstMatch":[{"appium:app":"/Users/luca/Desktop/BDDtest/src/main/resources/UIKitCatalog-iphonesimulator.app","appium:connectHardwareKeyboard":true,"appium:deviceName":"iPhone 13 Pro","appium:includeSafariInWebviews":true,"appium:newCommandTimeout":3600,"appium:platformVersion":"15.5","appium:usePrebuiltWDA":true,"appium:noReset":false,"platformName":"ios","appium:useNewWDA":false}]}]
+2022-07-24 22:25:38:966 [BaseDriver] Event 'newSessionRequested' logged at 1658701538965 (00:25:38 GMT+0200 (Central European Summer Time))
+2022-07-24 22:25:38:972 [Appium] DeprecationWarning: 'automationName' capability was not provided. Future versions of Appium will require 'automationName' capability to be set for iOS sessions.
+2022-07-24 22:25:38:973 [Appium] Requested iOS support with version >= 10, using 'XCUITest' driver instead of UIAutomation-based driver, since the latter is unsupported on iOS 10 and up.
+2022-07-24 22:25:39:884 [Appium] Appium v1.22.3 creating new XCUITestDriver (v3.59.0) session
+2022-07-24 22:25:39:884 [Appium] There are no active sessions for cleanup
+2022-07-24 22:25:39:889 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2022-07-24 22:25:39:889 [BaseDriver] Creating session with W3C capabilities: {
+2022-07-24 22:25:39:889 [BaseDriver]   "alwaysMatch": {
+2022-07-24 22:25:39:889 [BaseDriver]     "platformName": "ios",
+2022-07-24 22:25:39:889 [BaseDriver]     "appium:app": "/Users/luca/Desktop/BDDtest/src/main/resources/UIKitCatalog-iphonesimulator.app",
+2022-07-24 22:25:39:889 [BaseDriver]     "appium:connectHardwareKeyboard": true,
+2022-07-24 22:25:39:890 [BaseDriver]     "appium:deviceName": "iPhone 13 Pro",
+2022-07-24 22:25:39:890 [BaseDriver]     "appium:includeSafariInWebviews": true,
+2022-07-24 22:25:39:890 [BaseDriver]     "appium:newCommandTimeout": 3600,
+2022-07-24 22:25:39:890 [BaseDriver]     "appium:platformVersion": "15.5",
+2022-07-24 22:25:39:890 [BaseDriver]     "appium:usePrebuiltWDA": true,
+2022-07-24 22:25:39:890 [BaseDriver]     "appium:noReset": false,
+2022-07-24 22:25:39:890 [BaseDriver]     "appium:useNewWDA": false
+2022-07-24 22:25:39:890 [BaseDriver]   },
+2022-07-24 22:25:39:890 [BaseDriver]   "firstMatch": [
+2022-07-24 22:25:39:890 [BaseDriver]     {}
+2022-07-24 22:25:39:890 [BaseDriver]   ]
+2022-07-24 22:25:39:891 [BaseDriver] }
+2022-07-24 22:25:39:899 [BaseDriver] Session created with session id: e31a5abb-f32b-445e-aecd-1d3e2f485289
+2022-07-24 22:25:39:921 [XCUITest] Current user: 'luca'
+2022-07-24 22:25:39:972 [XCUITest] iOS SDK Version set to '15.5'
+2022-07-24 22:25:40:915 [iOSSim] Constructing iOS simulator for Xcode version 13.4.1 with udid '0AB8D912-F4BB-4C01-9AA9-D76A6AE0A813'
+2022-07-24 22:25:40:916 [XCUITest] Determining device to run tests on: udid: '0AB8D912-F4BB-4C01-9AA9-D76A6AE0A813', real device: false
+2022-07-24 22:25:40:918 [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1658701540917 (00:25:40 GMT+0200 (Central European Summer Time))
+2022-07-24 22:25:40:920 [BaseDriver] Using local app '/Users/luca/Desktop/BDDtest/src/main/resources/UIKitCatalog-iphonesimulator.app'
+2022-07-24 22:25:40:920 [BaseDriver] Event 'appConfigured' logged at 1658701540920 (00:25:40 GMT+0200 (Central European Summer Time))
+2022-07-24 22:25:40:920 [XCUITest] Checking whether app '/Users/luca/Desktop/BDDtest/src/main/resources/UIKitCatalog-iphonesimulator.app' is actually present on file system
+2022-07-24 22:25:40:920 [XCUITest] App is present
+2022-07-24 22:25:40:924 [XCUITest] Getting bundle ID from app '/Users/luca/Desktop/BDDtest/src/main/resources/UIKitCatalog-iphonesimulator.app': 'com.example.apple-samplecode.UICatalog'
+2022-07-24 22:25:40:924 [BaseDriver] Event 'resetStarted' logged at 1658701540924 (00:25:40 GMT+0200 (Central European Summer Time))
+2022-07-24 22:25:41:341 [simctl] Error running 'terminate': An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=3):
+Application termination failed.
+FBSSystemService reported failure without an error, possibly because the app is not currently running.
+2022-07-24 22:25:41:341 [XCUITest] Reset: failed to terminate Simulator application with id "com.example.apple-samplecode.UICatalog"
+2022-07-24 22:25:41:341 [XCUITest] Not scrubbing third party app in anticipation of uninstall
+2022-07-24 22:25:41:341 [BaseDriver] Event 'resetComplete' logged at 1658701541341 (00:25:41 GMT+0200 (Central European Summer Time))
+2022-07-24 22:25:41:342 [WebDriverAgent] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
+2022-07-24 22:25:41:342 [WebDriverAgent] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+2022-07-24 22:25:41:558 [IOSSimulatorLog] Starting log capture for iOS Simulator with udid '0AB8D912-F4BB-4C01-9AA9-D76A6AE0A813' using simctl
+2022-07-24 22:25:41:928 [BaseDriver] Event 'logCaptureStarted' logged at 1658701541926 (00:25:41 GMT+0200 (Central European Summer Time))
+2022-07-24 22:25:41:928 [XCUITest] Setting up simulator
+2022-07-24 22:25:41:929 [XCUITest] No reason to set locale
+2022-07-24 22:25:41:929 [XCUITest] No iOS / app preferences to set
+2022-07-24 22:25:41:929 [XCUITest] Setting did not need to be updated
+2022-07-24 22:25:41:931 [iOSSim] Setting preferences of 0AB8D912-F4BB-4C01-9AA9-D76A6AE0A813 Simulator to {"ConnectHardwareKeyboard":true}
+2022-07-24 22:25:41:931 [iOSSim] Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":true,"PasteboardAutomaticSync":false}
+2022-07-24 22:25:42:275 [iOSSim] Updated 0AB8D912-F4BB-4C01-9AA9-D76A6AE0A813 Simulator preferences at '/Users/luca/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":true,"PasteboardAutomaticSync":false,"DevicePreferences":{"0AB8D912-F4BB-4C01-9AA9-D76A6AE0A813":{"ConnectHardwareKeyboard":true,"SimulatorExternalDisplay":2114,"SimulatorWindowOrientation":"Portrait","SimulatorWindowGeometry":{"ABCFA4B2-6D7E-4045-B3D0-28A768544604":{"WindowCenter":"{1252.5, 652}","WindowScale":0.7972972972972973},"A533FCA3-8BDE-4C74-B4EC-CE5A4B9A79BD":{"WindowCenter":"{1259.5, 488}","WindowScale":0.7972972972972973}},"SimulatorWindowRotationAngle":0,"ChromeTint":""}}}
+2022-07-24 22:25:42:524 [iOSSim] Got Simulator UI client PID: 1162
+2022-07-24 22:25:42:524 [iOSSim] Both Simulator with UDID '0AB8D912-F4BB-4C01-9AA9-D76A6AE0A813' and the UI client are currently running
+2022-07-24 22:25:42:788 [BaseDriver] Event 'simStarted' logged at 1658701542788 (00:25:42 GMT+0200 (Central European Summer Time))
+2022-07-24 22:25:42:789 [XCUITest] Verifying application platform
+2022-07-24 22:25:42:790 [XCUITest] CFBundleSupportedPlatforms: ["iPhoneSimulator"]
+2022-07-24 22:25:43:054 [XCUITest] Reset requested. Removing app with id 'com.example.apple-samplecode.UICatalog' from the device
+2022-07-24 22:25:43:525 [XCUITest] Installing '/Users/luca/Desktop/BDDtest/src/main/resources/UIKitCatalog-iphonesimulator.app' on Simulator with UUID '0AB8D912-F4BB-4C01-9AA9-D76A6AE0A813'...
+2022-07-24 22:25:45:797 [XCUITest] The app has been installed successfully.
+2022-07-24 22:25:45:798 [BaseDriver] Event 'appInstalled' logged at 1658701545798 (00:25:45 GMT+0200 (Central European Summer Time))
+2022-07-24 22:25:45:952 [WebDriverAgent] No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+2022-07-24 22:25:45:954 [DevCon Factory] Requesting connection for device 0AB8D912-F4BB-4C01-9AA9-D76A6AE0A813 on local port 8100
+2022-07-24 22:25:45:955 [DevCon Factory] Cached connections count: 0
+2022-07-24 22:25:45:959 [DevCon Factory] Successfully requested the connection for 0AB8D912-F4BB-4C01-9AA9-D76A6AE0A813:8100
+2022-07-24 22:25:45:960 [XCUITest] Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+2022-07-24 22:25:45:964 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-24 22:25:45:966 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+2022-07-24 22:25:46:092 [WD Proxy] Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"15.4","version":"15.5"},"ios":{"simulatorVersion":"15.5","ip":"192.168.43.26"},"ready":true,"build":{"upgradedAt":"1657920366040","time":"Jul 18 2022 15:18:11","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+2022-07-24 22:25:46:093 [WebDriverAgent] Upgrade timestamp of the currently bundled WDA: 1657920366040
+2022-07-24 22:25:46:094 [WebDriverAgent] Upgrade timestamp of the WDA on the device: 1657920366040
+2022-07-24 22:25:46:094 [WebDriverAgent] Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
+2022-07-24 22:25:46:094 [XCUITest] Trying to start WebDriverAgent 2 times with 10000ms interval
+2022-07-24 22:25:46:094 [XCUITest] These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+2022-07-24 22:25:46:095 [BaseDriver] Event 'wdaStartAttempted' logged at 1658701546095 (00:25:46 GMT+0200 (Central European Summer Time))
+2022-07-24 22:25:46:096 [WebDriverAgent] Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
+2022-07-24 22:25:46:097 [WD Proxy] Matched '/status' to command name 'getStatus'
+2022-07-24 22:25:46:097 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+2022-07-24 22:25:46:103 [WD Proxy] Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"15.4","version":"15.5"},"ios":{"simulatorVersion":"15.5","ip":"192.168.43.26"},"ready":true,"build":{"upgradedAt":"1657920366040","time":"Jul 18 2022 15:18:11","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+2022-07-24 22:25:46:104 [BaseDriver] Event 'wdaSessionAttempted' logged at 1658701546103 (00:25:46 GMT+0200 (Central European Summer Time))
+2022-07-24 22:25:46:104 [XCUITest] Sending createSession command to WDA
+2022-07-24 22:25:46:105 [WD Proxy] Matched '/session' to command name 'createSession'
+2022-07-24 22:25:46:105 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"com.example.apple-samplecode.UICatalog","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":true,"forceAppLaunch":true,"useNativeCachingStrategy":true,"forceSimulatorSoftwareKeyboardPresence":false}],"alwaysMatch":{}}}
+2022-07-24 22:25:49:119 [WD Proxy] Got response with status 200: {"value":{"sessionId":"DCA78E4E-C402-4D13-982A-DF45E6962642","capabilities":{"device":"iphone","browserName":"UIKitCatalog","sdkVersion":"15.5","CFBundleIdentifier":"com.example.apple-samplecode.UICatalog"}},"sessionId":"DCA78E4E-C402-4D13-982A-DF45E6962642"}
+2022-07-24 22:25:49:119 [WD Proxy] Determined the downstream protocol as 'W3C'
+2022-07-24 22:25:49:122 [BaseDriver] Event 'wdaSessionStarted' logged at 1658701549120 (00:25:49 GMT+0200 (Central European Summer Time))
+2022-07-24 22:25:49:122 [BaseDriver] Event 'wdaStarted' logged at 1658701549122 (00:25:49 GMT+0200 (Central European Summer Time))
+2022-07-24 22:25:49:122 [XCUITest] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+2022-07-24 22:25:49:122 [BaseDriver] Event 'orientationSet' logged at 1658701549122 (00:25:49 GMT+0200 (Central European Summer Time))
+2022-07-24 22:25:49:123 [BaseDriver] The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+2022-07-24 22:25:49:123 [BaseDriver] The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+2022-07-24 22:25:49:124 [Appium] New XCUITestDriver session created successfully, session e31a5abb-f32b-445e-aecd-1d3e2f485289 added to master session list
+2022-07-24 22:25:49:125 [BaseDriver] Event 'newSessionStarted' logged at 1658701549124 (00:25:49 GMT+0200 (Central European Summer Time))
+2022-07-24 22:25:49:125 [W3C (e31a5abb)] Cached the protocol value 'W3C' for the new session e31a5abb-f32b-445e-aecd-1d3e2f485289
+2022-07-24 22:25:49:126 [W3C (e31a5abb)] Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"ios","app":"/Users/luca/Desktop/BDDtest/src/main/resources/UIKitCatalog-iphonesimulator.app","connectHardwareKeyboard":true,"deviceName":"iPhone 13 Pro","includeSafariInWebviews":true,"newCommandTimeout":3600,"platformVersion":"15.5","usePrebuiltWDA":true,"noReset":false,"useNewWDA":false,"udid":"0AB8D912-F4BB-4C01-9AA9-D76A6AE0A813"}}
+2022-07-24 22:25:49:127 [HTTP] <-- POST /wd/hub/session 200 10163 ms - 627
+2022-07-24 22:25:49:127 [HTTP] 
+2022-07-24 22:25:49:243 [HTTP] --> POST /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/timeouts
+2022-07-24 22:25:49:243 [HTTP] {"implicit":90000}
+2022-07-24 22:25:49:246 [W3C (e31a5abb)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,90000,"e31a5abb-f32b-445e-aecd-1d3e2f485289"]
+2022-07-24 22:25:49:246 [XCUITest] Executing command 'timeouts'
+2022-07-24 22:25:49:247 [BaseDriver] W3C timeout argument: {"implicit":90000}}
+2022-07-24 22:25:49:247 [BaseDriver] Set implicit wait to 90000ms
+2022-07-24 22:25:49:247 [W3C (e31a5abb)] Responding to client with driver.timeouts() result: null
+2022-07-24 22:25:49:249 [HTTP] <-- POST /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/timeouts 200 5 ms - 14
+2022-07-24 22:25:49:249 [HTTP] 
+2022-07-24 22:25:49:277 [HTTP] --> POST /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element
+2022-07-24 22:25:49:277 [HTTP] {"using":"accessibility id","value":"Alert Views"}
+2022-07-24 22:25:49:279 [W3C (e31a5abb)] Calling AppiumDriver.findElement() with args: ["accessibility id","Alert Views","e31a5abb-f32b-445e-aecd-1d3e2f485289"]
+2022-07-24 22:25:49:279 [XCUITest] Executing command 'findElement'
+2022-07-24 22:25:49:280 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2022-07-24 22:25:49:280 [BaseDriver] Waiting up to 90000 ms for condition
+2022-07-24 22:25:49:284 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-24 22:25:49:284 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/DCA78E4E-C402-4D13-982A-DF45E6962642/element] with body: {"using":"accessibility id","value":"Alert Views"}
+2022-07-24 22:25:49:885 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"2A000000-0000-0000-4D57-000000000000","element-6066-11e4-a52e-4f735466cecf":"2A000000-0000-0000-4D57-000000000000"},"sessionId":"DCA78E4E-C402-4D13-982A-DF45E6962642"}
+2022-07-24 22:25:49:886 [W3C (e31a5abb)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"2A000000-0000-0000-4D57-000000000000","ELEMENT":"2A000000-0000-0000-4D57-000000000000"}
+2022-07-24 22:25:49:887 [HTTP] <-- POST /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element 200 610 ms - 137
+2022-07-24 22:25:49:887 [HTTP] 
+2022-07-24 22:25:49:912 [HTTP] --> POST /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element/2A000000-0000-0000-4D57-000000000000/click
+2022-07-24 22:25:49:912 [HTTP] {"id":"2A000000-0000-0000-4D57-000000000000"}
+2022-07-24 22:25:49:915 [W3C (e31a5abb)] Driver proxy active, passing request on via HTTP proxy
+2022-07-24 22:25:49:915 [XCUITest] Executing command 'proxyReqRes'
+2022-07-24 22:25:49:916 [WD Proxy] Matched '/wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element/2A000000-0000-0000-4D57-000000000000/click' to command name 'click'
+2022-07-24 22:25:49:917 [WD Proxy] Proxying [POST /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element/2A000000-0000-0000-4D57-000000000000/click] to [POST http://127.0.0.1:8100/session/DCA78E4E-C402-4D13-982A-DF45E6962642/element/2A000000-0000-0000-4D57-000000000000/click] with body: {"id":"2A000000-0000-0000-4D57-000000000000"}
+2022-07-24 22:25:50:114 [WebDriverAgent] Parsed BUILD_DIR configuration value: '/Users/luca/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu/Build/Products'
+2022-07-24 22:25:50:114 [WebDriverAgent] Got derived data root: '/Users/luca/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu'
+2022-07-24 22:25:50:764 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"DCA78E4E-C402-4D13-982A-DF45E6962642"}
+2022-07-24 22:25:50:766 [WD Proxy] Replacing sessionId DCA78E4E-C402-4D13-982A-DF45E6962642 with e31a5abb-f32b-445e-aecd-1d3e2f485289
+2022-07-24 22:25:50:775 [HTTP] <-- POST /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element/2A000000-0000-0000-4D57-000000000000/click 200 856 ms - 65
+2022-07-24 22:25:50:776 [HTTP] 
+2022-07-24 22:25:50:802 [HTTP] --> POST /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element
+2022-07-24 22:25:50:803 [HTTP] {"using":"accessibility id","value":"Text Entry"}
+2022-07-24 22:25:50:804 [W3C (e31a5abb)] Calling AppiumDriver.findElement() with args: ["accessibility id","Text Entry","e31a5abb-f32b-445e-aecd-1d3e2f485289"]
+2022-07-24 22:25:50:805 [XCUITest] Executing command 'findElement'
+2022-07-24 22:25:50:805 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2022-07-24 22:25:50:805 [BaseDriver] Waiting up to 90000 ms for condition
+2022-07-24 22:25:50:806 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-24 22:25:50:806 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/DCA78E4E-C402-4D13-982A-DF45E6962642/element] with body: {"using":"accessibility id","value":"Text Entry"}
+2022-07-24 22:25:51:475 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"C0000000-0000-0000-4D57-000000000000","element-6066-11e4-a52e-4f735466cecf":"C0000000-0000-0000-4D57-000000000000"},"sessionId":"DCA78E4E-C402-4D13-982A-DF45E6962642"}
+2022-07-24 22:25:51:476 [W3C (e31a5abb)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"C0000000-0000-0000-4D57-000000000000","ELEMENT":"C0000000-0000-0000-4D57-000000000000"}
+2022-07-24 22:25:51:477 [HTTP] <-- POST /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element 200 675 ms - 137
+2022-07-24 22:25:51:477 [HTTP] 
+2022-07-24 22:25:51:483 [HTTP] --> POST /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element/C0000000-0000-0000-4D57-000000000000/click
+2022-07-24 22:25:51:483 [HTTP] {"id":"C0000000-0000-0000-4D57-000000000000"}
+2022-07-24 22:25:51:484 [W3C (e31a5abb)] Driver proxy active, passing request on via HTTP proxy
+2022-07-24 22:25:51:485 [XCUITest] Executing command 'proxyReqRes'
+2022-07-24 22:25:51:485 [WD Proxy] Matched '/wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element/C0000000-0000-0000-4D57-000000000000/click' to command name 'click'
+2022-07-24 22:25:51:486 [WD Proxy] Proxying [POST /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element/C0000000-0000-0000-4D57-000000000000/click] to [POST http://127.0.0.1:8100/session/DCA78E4E-C402-4D13-982A-DF45E6962642/element/C0000000-0000-0000-4D57-000000000000/click] with body: {"id":"C0000000-0000-0000-4D57-000000000000"}
+2022-07-24 22:25:52:694 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"DCA78E4E-C402-4D13-982A-DF45E6962642"}
+2022-07-24 22:25:52:695 [WD Proxy] Replacing sessionId DCA78E4E-C402-4D13-982A-DF45E6962642 with e31a5abb-f32b-445e-aecd-1d3e2f485289
+2022-07-24 22:25:52:696 [HTTP] <-- POST /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element/C0000000-0000-0000-4D57-000000000000/click 200 1212 ms - 65
+2022-07-24 22:25:52:696 [HTTP] 
+2022-07-24 22:25:52:705 [HTTP] --> POST /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element
+2022-07-24 22:25:52:705 [HTTP] {"using":"xpath","value":"//*[@type='XCUIElementTypeTextField']"}
+2022-07-24 22:25:52:705 [W3C (e31a5abb)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@type='XCUIElementTypeTextField']","e31a5abb-f32b-445e-aecd-1d3e2f485289"]
+2022-07-24 22:25:52:706 [XCUITest] Executing command 'findElement'
+2022-07-24 22:25:52:706 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2022-07-24 22:25:52:706 [BaseDriver] Waiting up to 90000 ms for condition
+2022-07-24 22:25:52:707 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-24 22:25:52:707 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/DCA78E4E-C402-4D13-982A-DF45E6962642/element] with body: {"using":"xpath","value":"//*[@type='XCUIElementTypeTextField']"}
+2022-07-24 22:25:54:615 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"37010000-0000-0000-4D57-000000000000","element-6066-11e4-a52e-4f735466cecf":"37010000-0000-0000-4D57-000000000000"},"sessionId":"DCA78E4E-C402-4D13-982A-DF45E6962642"}
+2022-07-24 22:25:54:616 [W3C (e31a5abb)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"37010000-0000-0000-4D57-000000000000","ELEMENT":"37010000-0000-0000-4D57-000000000000"}
+2022-07-24 22:25:54:617 [HTTP] <-- POST /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element 200 1911 ms - 137
+2022-07-24 22:25:54:618 [HTTP] 
+2022-07-24 22:25:54:627 [HTTP] --> POST /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element/37010000-0000-0000-4D57-000000000000/value
+2022-07-24 22:25:54:628 [HTTP] {"id":"37010000-0000-0000-4D57-000000000000","text":"Hello Luca","value":["H","e","l","l","o"," ","L","u","c","a"]}
+2022-07-24 22:25:54:629 [W3C (e31a5abb)] Calling AppiumDriver.setValue() with args: [["H","e","l","l","o"," ","L","u","c","a"],"37010000-0000-0000-4D57-000000000000","e31a5abb-f32b-445e-aecd-1d3e2f485289"]
+2022-07-24 22:25:54:629 [XCUITest] Executing command 'setValue'
+2022-07-24 22:25:54:630 [WD Proxy] Matched '/element/37010000-0000-0000-4D57-000000000000/value' to command name 'setValue'
+2022-07-24 22:25:54:632 [Protocol Converter] Added 'text' property "Hello Luca" to 'setValue' request body
+2022-07-24 22:25:54:633 [WD Proxy] Proxying [POST /element/37010000-0000-0000-4D57-000000000000/value] to [POST http://127.0.0.1:8100/session/DCA78E4E-C402-4D13-982A-DF45E6962642/element/37010000-0000-0000-4D57-000000000000/value] with body: {"value":["H","e","l","l","o"," ","L","u","c","a"],"text":"Hello Luca"}
+2022-07-24 22:25:55:521 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"DCA78E4E-C402-4D13-982A-DF45E6962642"}
+2022-07-24 22:25:55:521 [W3C (e31a5abb)] Responding to client with driver.setValue() result: null
+2022-07-24 22:25:55:531 [HTTP] <-- POST /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element/37010000-0000-0000-4D57-000000000000/value 200 895 ms - 14
+2022-07-24 22:25:55:532 [HTTP] 
+2022-07-24 22:25:55:533 [HTTP] --> POST /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element
+2022-07-24 22:25:55:533 [HTTP] {"using":"xpath","value":"//*[@type='XCUIElementTypeTextField']"}
+2022-07-24 22:25:55:534 [W3C (e31a5abb)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@type='XCUIElementTypeTextField']","e31a5abb-f32b-445e-aecd-1d3e2f485289"]
+2022-07-24 22:25:55:535 [XCUITest] Executing command 'findElement'
+2022-07-24 22:25:55:535 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+2022-07-24 22:25:55:535 [BaseDriver] Waiting up to 90000 ms for condition
+2022-07-24 22:25:55:536 [WD Proxy] Matched '/element' to command name 'findElement'
+2022-07-24 22:25:55:536 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8100/session/DCA78E4E-C402-4D13-982A-DF45E6962642/element] with body: {"using":"xpath","value":"//*[@type='XCUIElementTypeTextField']"}
+2022-07-24 22:25:56:699 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"37010000-0000-0000-4D57-000000000000","element-6066-11e4-a52e-4f735466cecf":"37010000-0000-0000-4D57-000000000000"},"sessionId":"DCA78E4E-C402-4D13-982A-DF45E6962642"}
+2022-07-24 22:25:56:700 [W3C (e31a5abb)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"37010000-0000-0000-4D57-000000000000","ELEMENT":"37010000-0000-0000-4D57-000000000000"}
+2022-07-24 22:25:56:703 [HTTP] <-- POST /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element 200 1167 ms - 137
+2022-07-24 22:25:56:703 [HTTP] 
+2022-07-24 22:25:56:706 [HTTP] --> GET /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element/37010000-0000-0000-4D57-000000000000/text
+2022-07-24 22:25:56:706 [HTTP] {}
+2022-07-24 22:25:56:707 [W3C (e31a5abb)] Driver proxy active, passing request on via HTTP proxy
+2022-07-24 22:25:56:707 [XCUITest] Executing command 'proxyReqRes'
+2022-07-24 22:25:56:708 [WD Proxy] Matched '/wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element/37010000-0000-0000-4D57-000000000000/text' to command name 'getText'
+2022-07-24 22:25:56:708 [WD Proxy] Proxying [GET /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element/37010000-0000-0000-4D57-000000000000/text] to [GET http://127.0.0.1:8100/session/DCA78E4E-C402-4D13-982A-DF45E6962642/element/37010000-0000-0000-4D57-000000000000/text] with no body
+2022-07-24 22:25:56:824 [WD Proxy] Got response with status 200: {"value":"Hello Luca","sessionId":"DCA78E4E-C402-4D13-982A-DF45E6962642"}
+2022-07-24 22:25:56:824 [WD Proxy] Replacing sessionId DCA78E4E-C402-4D13-982A-DF45E6962642 with e31a5abb-f32b-445e-aecd-1d3e2f485289
+2022-07-24 22:25:56:825 [HTTP] <-- GET /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289/element/37010000-0000-0000-4D57-000000000000/text 200 119 ms - 73
+2022-07-24 22:25:56:825 [HTTP] 
+2022-07-24 22:25:56:842 [HTTP] --> DELETE /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289
+2022-07-24 22:25:56:842 [HTTP] {}
+2022-07-24 22:25:56:842 [W3C (e31a5abb)] Calling AppiumDriver.deleteSession() with args: ["e31a5abb-f32b-445e-aecd-1d3e2f485289"]
+2022-07-24 22:25:56:843 [BaseDriver] Event 'quitSessionRequested' logged at 1658701556843 (00:25:56 GMT+0200 (Central European Summer Time))
+2022-07-24 22:25:56:845 [Appium] Removing session e31a5abb-f32b-445e-aecd-1d3e2f485289 from our master session list
+2022-07-24 22:25:56:846 [WD Proxy] Matched '/session/e31a5abb-f32b-445e-aecd-1d3e2f485289' to command name 'deleteSession'
+2022-07-24 22:25:56:846 [WD Proxy] Proxying [DELETE /session/e31a5abb-f32b-445e-aecd-1d3e2f485289] to [DELETE http://127.0.0.1:8100/session/DCA78E4E-C402-4D13-982A-DF45E6962642] with no body
+2022-07-24 22:25:57:903 [WD Proxy] Got response with status 200: {"value":null,"sessionId":null}
+2022-07-24 22:25:57:903 [DevCon Factory] Releasing connections for 0AB8D912-F4BB-4C01-9AA9-D76A6AE0A813 device on any port number
+2022-07-24 22:25:57:904 [DevCon Factory] Found cached connections to release: ["0AB8D912-F4BB-4C01-9AA9-D76A6AE0A813:8100"]
+2022-07-24 22:25:57:904 [DevCon Factory] Cached connections count: 0
+2022-07-24 22:25:57:904 [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+2022-07-24 22:25:57:905 [IOSSimulatorLog] Stopping iOS log capture
+2022-07-24 22:25:57:916 [BaseDriver] Event 'quitSessionFinished' logged at 1658701557915 (00:25:57 GMT+0200 (Central European Summer Time))
+2022-07-24 22:25:57:916 [W3C (e31a5abb)] Received response: null
+2022-07-24 22:25:57:916 [W3C (e31a5abb)] But deleting session, so not returning
+2022-07-24 22:25:57:917 [W3C (e31a5abb)] Responding to client with driver.deleteSession() result: null
+2022-07-24 22:25:57:920 [HTTP] <-- DELETE /wd/hub/session/e31a5abb-f32b-445e-aecd-1d3e2f485289 200 1075 ms - 14
+2022-07-24 22:25:57:927 [HTTP] 
+2022-07-24 22:25:57:935 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:873:11)
+    at Socket._write (node:net:885:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+2022-07-24 22:25:57:936 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:873:11)
+    at Socket._write (node:net:885:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+2022-07-24 22:25:57:938 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:873:11)
+    at Socket._write (node:net:885:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+2022-07-24 22:25:57:941 [Appium] Received SIGTERM - shutting down
+2022-07-24 22:25:57:941 [Appium] There are no active sessions for cleanup
+2022-07-24 22:25:57:942 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:873:11)
+    at Socket._write (node:net:885:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+2022-07-24 22:25:57:943 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:873:11)
+    at Socket._write (node:net:885:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+2022-07-24 22:25:57:944 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:873:11)
+    at Socket._write (node:net:885:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+2022-07-24 22:25:57:945 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:873:11)
+    at Socket._write (node:net:885:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+2022-07-24 22:25:57:946 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:873:11)
+    at Socket._write (node:net:885:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+2022-07-24 22:25:57:948 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:873:11)
+    at Socket._write (node:net:885:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+2022-07-24 22:25:57:951 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:873:11)
+    at Socket._write (node:net:885:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+2022-07-24 22:25:57:952 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:873:11)
+    at Socket._write (node:net:885:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+2022-07-24 22:25:57:953 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:873:11)
+    at Socket._write (node:net:885:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+2022-07-24 22:25:57:954 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:873:11)
+    at Socket._write (node:net:885:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+2022-07-24 22:25:57:955 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:873:11)
+    at Socket._write (node:net:885:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Socket.Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:525:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
