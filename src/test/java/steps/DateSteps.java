@@ -36,7 +36,7 @@ public class DateSteps {
         //desiredCapabilities.setCapability("fullReset", true);
         desiredCapabilities.setCapability("useNewWDA", false);
         //
-        //desiredCapabilities.setCapability("newCommandTimeout", 120); okkk
+        //desiredCapabilities.setCapability("newCommandTimeout", 120); ok
         URL remoteUrl = new URL("http://0.0.0.0:4723/wd/hub");
         driver = new IOSDriver(remoteUrl, desiredCapabilities);
         driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
